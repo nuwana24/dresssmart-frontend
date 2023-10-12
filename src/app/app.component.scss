@@ -1,0 +1,45 @@
+// dashboard.scss
+
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+
+// Mixins
+@mixin button-styles {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+// Header Styles
+.dashboard-header {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px;
+  // Add more styles
+}
+
+// Sidebar Styles
+.dashboard-sidebar {
+  background-color: $secondary-color;
+  color: white;
+  width: 250px;
+  // Add more styles
+}
+
+// Content Styles
+.dashboard-content {
+  padding: 20px;
+  // Add more styles
+}
+
+// Footer Styles
+.dashboard-footer {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px;
+  // Add more styles
+}
